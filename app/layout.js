@@ -80,9 +80,10 @@ export const metadata = {
     apple: "/profile.jpg",
   },
   verification: {
-    google: "google-site-verification-code-here",
+    google: "qjnCXTxqjKur8ZRlQp0urnaXT4lGECmow7-2ODp0u3E",
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (
