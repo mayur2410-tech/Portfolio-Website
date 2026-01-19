@@ -35,14 +35,14 @@ export const metadata = {
   authors: [{ name: "Mayur Arvind Waykar", url: "https://github.com/mayur2410-tech" }],
   creator: "Mayur Arvind Waykar",
   publisher: "Mayur Arvind Waykar",
-  metadataBase: new URL('https://mayurwaykar.vercel.app'),
+  metadataBase: new URL('https://mayur-waykar-portfolio.vercel.app'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mayurwaykar.vercel.app",
+    url: "https://mayur-waykar-portfolio.vercel.app",
     title: "Mayur Arvind Waykar - Full Stack Developer | Next.js Expert",
     description:
       "Professional Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies. Explore innovative projects and connect for collaboration.",

@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://mayurwaykar.vercel.app';
+  const baseUrl = 'https://mayur-waykar-portfolio.vercel.app';
   
   return [
     {

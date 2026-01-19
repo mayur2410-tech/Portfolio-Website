@@ -5,6 +5,6 @@ export default function robots() {
       allow: '/',
       disallow: ['/api/', '/private/'],
     },
-    sitemap: 'https://mayurwaykar.vercel.app/sitemap.xml',
+    sitemap: 'https://mayur-waykar-portfolio.vercel.app/sitemap.xml',
   };
 }
