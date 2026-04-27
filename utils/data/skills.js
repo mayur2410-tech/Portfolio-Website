@@ -8,6 +8,7 @@ export const skillsData = [
   'Tailwind',
   'MongoDB',
   'MySQL',
+  'Nginx',
   'PostgreSQL',
   'Git',
   'AWS',
