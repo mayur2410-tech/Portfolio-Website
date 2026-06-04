@@ -149,6 +149,47 @@ function Experience() {
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
               <AnimationLottie animationPath={experience} />
+              <div className="mt-6 grid grid-cols-2 gap-4 px-4">
+  <div className="rounded-xl border border-[#25213b] bg-[#0d1224]/80 p-4 text-center shadow-lg backdrop-blur-md">
+    <h3 className="text-2xl font-bold text-[#16f2b3]">1+</h3>
+    <p className="mt-1 text-xs sm:text-sm text-gray-400">Years Experience</p>
+  </div>
+
+  <div className="rounded-xl border border-[#25213b] bg-[#0d1224]/80 p-4 text-center shadow-lg backdrop-blur-md">
+    <h3 className="text-2xl font-bold text-violet-400">5+</h3>
+    <p className="mt-1 text-xs sm:text-sm text-gray-400">Projects Delivered</p>
+  </div>
+
+  <div className="rounded-xl border border-[#25213b] bg-[#0d1224]/80 p-4 text-center shadow-lg backdrop-blur-md">
+    <h3 className="text-2xl font-bold text-[#16f2b3]">40%</h3>
+    <p className="mt-1 text-xs sm:text-sm text-gray-400">Faster Deployment</p>
+  </div>
+
+  <div className="rounded-xl border border-[#25213b] bg-[#0d1224]/80 p-4 text-center shadow-lg backdrop-blur-md">
+    <h3 className="text-2xl font-bold text-violet-400">35%</h3>
+    <p className="mt-1 text-xs sm:text-sm text-gray-400">Less Manual Work</p>
+  </div>
+</div>
+
+<div className="mt-5 rounded-2xl border border-[#25213b] bg-[#0d1224]/80 p-5 mx-4 shadow-lg backdrop-blur-md">
+  <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
+    I build scalable frontend interfaces and automate deployment workflows using
+    modern DevOps practices, focusing on performance, reliability, and clean user experience.
+  </p>
+
+  <div className="mt-4 flex flex-wrap gap-2">
+    {["React.js", "Next.js", "Docker", "Kubernetes", "CI/CD", "Linux"].map(
+      (skill) => (
+        <span
+          key={skill}
+          className="rounded-full border border-[#16f2b3]/30 bg-[#16f2b3]/10 px-3 py-1 text-xs text-[#16f2b3]"
+        >
+          {skill}
+        </span>
+      )
+    )}
+  </div>
+</div>
             </div>
           </div>
 
