@@ -178,7 +178,7 @@ function Experience() {
   </p>
 
   <div className="mt-4 flex flex-wrap gap-2">
-    {["React.js", "Next.js", "Docker", "Kubernetes", "CI/CD", "Linux"].map(
+    {["React.js","React Native","Node js", "Next.js", "Docker", "Kubernetes", "CI/CD", "Linux"].map(
       (skill) => (
         <span
           key={skill}
